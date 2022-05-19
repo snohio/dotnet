@@ -1,0 +1,7 @@
+name 'dotnet'
+maintainer 'Mike Butler'
+maintainer_email 'snohio@gmail.com'
+license 'All Rights Reserved'
+description 'Installs/Configures dotnet'
+version '0.1.2'
+chef_version '>= 17.0'
