@@ -2,6 +2,14 @@
 
 This file is used to list changes made in each version of the dotnet cookbook.
 
+## 0.2.2
+
+- **Added Upgrade and tested against Windows 2019**
+- Added Attribute for the Upgrade Binary path
+- Added a DotNet Compliance Profile to the cookbook
+- Bug fix for Attributes where there needed to be a `else return` line
+- Added a sleep to kill the run in Test kitchen
+
 ## 0.1.2
 
 Initial release.

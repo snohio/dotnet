@@ -1,0 +1,11 @@
+name: dotnet
+title: DotNet Compliance Profile
+maintainer: Mike Butler
+copyright: Mike Butler
+copyright_email: michael.butler@progress.com
+license: Apache-2.0
+summary: Validates .net installs and versions
+version: 0.2.2
+supports:
+  platform: os
+  

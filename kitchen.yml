@@ -12,6 +12,10 @@ provisioner:
   product_name: chef
   product_version: 17
   channel: stable
+  max_retries: 3
+  wait_for_retry: 90
+  retry_on_exit_code: [35, 213]
+  
 
 verifier:
   name: inspec
@@ -31,8 +35,11 @@ suites:
     - recipe[dotnet::default]
     verifier:
       inspec_tests:
-        - compliance/profiles/pdsoe
+        - compliance/profiles/dotnet
     attributes:
       audit:
         reporter: 'cli'
-        compliance_phase: false
+        compliance_phase: true
+ #     dotnet:
+ #       version:
+ #         required: '4.7.03190'

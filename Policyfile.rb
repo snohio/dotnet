@@ -16,4 +16,5 @@ run_list 'dotnet::default'
 cookbook 'dotnet', path: '.'
 
 default['dotnet']['framework'] = true
-default['dotnet']['version']['required'] = '4.7.03190'
+default['dotnet']['version']['required'] = '4.8.03761'
+# default['dotnet']['version']['required'] = '4.7.03190'
