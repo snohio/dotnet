@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the dotnet cookbook.
 
+## 0.2.5
+
+- Tested with Client 18 - All is good, no changes were needed.
+
 ## 0.2.2
 
 - **Added Upgrade and tested against Windows 2019**
