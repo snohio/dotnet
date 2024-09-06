@@ -12,7 +12,7 @@ windows_package 'Microsoft .Net Framework 4.x' do
 end
 
 reboot 'app_requires_reboot' do
-  action :request_reboot
+  action :reboot_now
   reason ".Net Upgraded to #{node['dotnet']['version']['required']} and requires a reboot"
   delay_mins 1
 end
