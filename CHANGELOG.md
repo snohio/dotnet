@@ -6,6 +6,8 @@ This file is used to list changes made in each version of the dotnet cookbook.
 
 - When added to other cookbooks that require .net 4.8, the reboot needs to be now and not the end of a successful run.
 
+> NOTE: This cookbook relies on a proper attribute for the .Net version. It can be stuck in a reboot loop if you select the Desktop version and run it on a Server.
+
 ## 0.2.5
 
 - Tested with Client 18 - All is good, no changes were needed.
