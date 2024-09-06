@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the dotnet cookbook.
 
+## 0.2.6
+
+- When added to other cookbooks that require .net 4.8, the reboot needs to be now and not the end of a successful run.
+
 ## 0.2.5
 
 - Tested with Client 18 - All is good, no changes were needed.
